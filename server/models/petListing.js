@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const petListingSchema = mongoose.Schema(
   {
@@ -14,10 +14,7 @@ const petListingSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    images: {
-      type: Array,
-      required: true,
-    },
+    images: [{ type: String }],
     price: {
       type: Number,
       required: true,
