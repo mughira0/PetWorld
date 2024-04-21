@@ -1,0 +1,6 @@
+.mainPage {
+  padding-inline-start: 10px;
+  /* display: grid; */
+  padding-inline: 60px;
+  /* grid-template-columns: 0.5fr 2fr 0.5fr; */
+}
